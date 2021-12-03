@@ -2,13 +2,15 @@ pub struct Day01 {
     input: Vec<i32>,
 }
 
-impl super::Day for Day01 {
-    fn new() -> Self {
+impl Day01 {
+    pub fn new() -> Self {
         Day01 {
             input: super::parse_input_i32(1),
         }
     }
+}
 
+impl super::Day for Day01 {
     fn p1(&self) -> String {
         let (_, count) = self
             .input

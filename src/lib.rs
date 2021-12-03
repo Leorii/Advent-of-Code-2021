@@ -1,11 +1,12 @@
 use std::fs;
 
 mod day01;
+mod day02;
 
 pub use day01::Day01;
+pub use day02::Day02;
 
 pub trait Day {
-    fn new() -> Self;
     fn p1(&self) -> String;
     fn p2(&self) -> String;
 }
