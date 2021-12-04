@@ -2,9 +2,11 @@ use std::fs;
 
 mod day01;
 mod day02;
+mod day03;
 
 pub use day01::Day01;
 pub use day02::Day02;
+pub use day03::Day03;
 
 pub trait Day {
     fn p1(&self) -> String;

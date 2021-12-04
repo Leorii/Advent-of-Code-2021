@@ -1,7 +1,11 @@
 use aoc_2021::*;
 
 fn main() {
-    let days: Vec<Box<dyn Day>> = vec![Box::new(Day01::new()), Box::new(Day02::new())];
+    let days: Vec<Box<dyn Day>> = vec![
+        Box::new(Day01::new()),
+        Box::new(Day02::new()),
+        Box::new(Day03::new()),
+    ];
 
     println!("ADVENT OF CODE");
 
