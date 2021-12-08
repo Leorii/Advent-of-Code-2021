@@ -6,6 +6,7 @@ fn main() {
         Box::new(Day02::new()),
         Box::new(Day03::new()),
         Box::new(Day04::new()),
+        Box::new(Day05::new()),
     ];
 
     println!("ADVENT OF CODE");
